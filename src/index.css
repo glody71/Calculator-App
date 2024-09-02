@@ -1,0 +1,127 @@
+* {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+body{
+  background-color:  hsl(222, 26%, 31%);
+}
+
+.outer-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+  
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 420px;
+  color: white;
+}
+
+.header{
+  background-color: hsl(224, 36%, 15%);
+  padding: 25px;
+  font-size: 3rem;
+  text-align: end;
+  color: white;
+  border-radius: 12px;
+}
+
+.keys-container{
+  
+  margin-top: 2rem;
+  background-color: hsl(223, 31%, 20%);
+  height: fit-content;
+  border-radius: 12px;
+}
+
+.keys-container .keys{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 25px;
+  
+}
+
+.keys-container .keys2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 25px;
+  
+}
+
+.keys-container .keys button{
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: hsl(30, 25%, 89%);
+  box-shadow: 0px 2px hsl(28, 16%, 65%);
+  border: transparent;
+  font-size: x-large;
+  color: hsl(221, 14%, 31%);
+  align-items: center;
+  
+}
+
+.keys-container .keys button:hover{
+  background-color: hsl(33, 10%, 78%);
+  transition: all;
+}
+
+.keys-container .keys2 button{
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: hsl(30, 25%, 89%);
+  box-shadow: 0px 2px hsl(28, 16%, 65%);
+  border: transparent;
+  font-size: x-large;
+  color: hsl(221, 14%, 31%);
+  align-items: center;
+}
+
+.keys-container .keys .del-reset{
+  background-color: hsl(225, 21%, 49%);
+  color: white;
+  box-shadow: 0px 2px hsl(224, 28%, 35%);
+}
+
+.keys-container .keys .del-reset:hover{
+  background-color: hsl(225, 20%, 43%);
+}
+
+.keys-container .keys2 .del-reset{
+  background-color: hsl(225, 21%, 49%);
+  color: white;
+  box-shadow: 0px 2px hsl(224, 28%, 35%);
+}
+
+.keys-container .keys2 .del-reset:hover{
+  background-color: hsl(225, 20%, 43%);
+  
+}
+
+.keys-container .keys2 .calculate{
+  background-color: hsl(6, 63%, 50%);
+  color: white;
+  box-shadow: 0px 2px hsl(6, 70%, 34%);
+}
+
+.keys-container .keys2 .calculate:hover{
+  background-color: hsl(6, 63%, 44%);
+}
+
+
+
+
+
+
+
+
